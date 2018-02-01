@@ -1,19 +1,19 @@
 // ==================
 // PROFILE SLIDE SHOW
 // ==================
-var slideIndex = 0;
-carousel();
+// var slideIndex = 0;
+// carousel();
 
-function carousel() {
-    var photos = document.getElementsByClassName("profile_photo");
-    for (i = 0; i < photos.length; i++) {
-      photos[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > photos.length) {slideIndex = 1} 
-    photos[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 9000); // Change image every 10 seconds
-}
+// function carousel() {
+//     var photos = document.getElementsByClassName("profile_photo");
+//     for (i = 0; i < photos.length; i++) {
+//       photos[i].style.display = "none"; 
+//     }
+//     slideIndex++;
+//     if (slideIndex > photos.length) {slideIndex = 1} 
+//     photos[slideIndex-1].style.display = "block"; 
+//     setTimeout(carousel, 9000); // Change image every 10 seconds
+// }
 
 // =====================
 // SKILLS PHOTO SCROLLER
